@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,500,600,700');
+
+body {
+  background: url(https://static.mediapart.fr/files/2018/03/28/background-3.png);
+  background-size: 100%;
+  padding: 20px 5%;
+  font-family: 'Source Sans Pro', Helvetica Neue, Helvetica, San Francisco, Roboto, Fira Sans, Segoe, Arial, sans-serif;
+}
+  #messenger .bubble
+  { padding: 6px 7px 8px 9px; }
+  #messenger .title { line-height: 1em; font-weight: bold; padding: 2px 0; color: #000000; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin: 0!important; text-align: center; }
+  #messenger .title span { font-size: 2em; white-space: normal; }
+  #messenger .message
+  { margin-bottom: 12px; float: left; clear: both; }
+  #messenger .message-image { width: 100%!important; max-width: none!important; }
+  #messenger .message-image .message-text { margin-top: 10px; }
+  #messenger .message-noarrow { margin-bottom: 2px; }
+  #messenger .message-in { background-color: #fff; float: left; }
+  #messenger .message-out { background-color: #dcf8c6; float: right; }
+  #messenger .message:last-of-type { margin-bottom: 0; }
+  #messenger .message-in,
+  #messenger .message-out { border-radius: 7.5px; position: relative; max-width: 80%; box-shadow: 0 1px .5px rgba(0, 0, 0, .13); -webkit-transition: .2s cubic-bezier(.31, .34, .3, .99); transition: .2s cubic-bezier(.31, .34, .3, .99); }
+  #messenger .message-in:before,
+  #messenger .message-out:before { content: ''; position: absolute; bottom: 3px; width: 12px; height: 19px; background-position: 50% 50%; background-repeat: no-repeat; background-size: contain; }
+  #messenger .message-in:not(.message-noarrow):not(.paris8):before { left: -11px; }
+  #messenger .message-in:not(.message-noarrow):not(.paris8):before { background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAmCAMAAADp2asXAAAAxlBMVEUAAAD////29vb5+fn///8AAAD///8AAAAAAAD////a2tr////4+Pjx8fH7+/vh4eHx8fH////////////////9/f0AAAD////////8/Pz////9/f39/f38/Pz////////////8/Pz////////////8/Pz////////////7+/vx8fH////W1tb8/Pytra3////9/f39/f1iYmIAAABMTExbW1sAAADd3d3IyMj6+vr19fUAAADu7u78/PzU1NTn5+czMzP///8xj5V7AAAAQXRSTlMAHJv5ERIeAgg1i9Up3kek3wEH34TGCvwOZ0ay1n0XOQ1tooeX/tfSp/vb+IP9Swiblx8EFCoGoXF0ugzZ5QzDCisz6E4AAACZSURBVHjaldG1FoMAEERRSCBA3N3d3X3+/6fSUIWZgtfes82swQNCQl6BpSCmoB36IqkgraCnYKegKcCEgJqCkgAPAhoC6uDQLXDITcFhAA5FUNj0QcGbgIE5rIBAZ7sAAmC1xgAIJAAKVQgwIisBznGZHf2DT+4+Pp8FwDd7nUlF+VaHsn26Xj7PO3uUc3Yf35chuil4G6ofqpc/uSL+aIAAAAAASUVORK5CYII=); }
+  #messenger .message-out { background-color: #dcf8c6; float: right; }
+  #messenger .message-out:not(.message-noarrow):not(.paris8):before { right: -11px; }
+  #messenger .message-out:not(.message-noarrow):not(.paris8):before { background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAmCAMAAADp2asXAAAA9lBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABkbFwAAADc8MzT5sTa7cmruaCFkXnQ5MDZ7cnM4MHX6cifv5/e8M7C1rTY7Mrb8M3M377T5sWrupzY6sba7coqNSrc8MzY68gAAADc8M4AAADc8MyuwKK/1LPS58PL3rwAAADM3r7W6ca7zK1/iHcAAABETjouOS69zK2Ro3/S6MV/jHLZ6snS5MIYGBjM37/b7skAAADc8Mzb7svc8cu7zLu1xqjb7cyispMAAADa7syqupy5zK4kJBjF17i9z7DY7MkoMygAAADS5MPN373d78vc+Mbc8M0aRZiBAAAAUHRSTlMAFwoRBgQDAQIMIQ7ye5NGKjHNGZsI+mqX9pI1NPnZMP7MIfwj/Y9lq9oJ3b2mHgUaMUIOoFD7fxWhyRnU4/QPZO10C3hOohXDddsZErfa+DSos6MAAAC+SURBVHgBldLFjsNgDATgJJvk/7NZZuYtMzMztNP3f5lKlXpI5Tl0jv40kmXZwNmJIYbDmgHGDE4ZZNSxjSvWuGTw6BJ4SRP4jhH4TRFAWBNI2AT+35QMiDgEvnJKBnzkCaCgCaCsCeBcE8DdPQHcXCsZ8HBxKwPw/PSqRADQGLRlAGougZYvQ7PjCdCtDit9fQilaOiz7jmBrTbv8WTxz9xN97BcTUa97I/p2cFrzcyFb9nCO0wtQ87cJcAKW+UtTwqG35JQAAAAAElFTkSuQmCC); }
+  #messenger .message-author { line-height: 20px; font-weight: 600; padding: 2px 0; color: #74cff8; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin: 0!important; }
+  #messenger .message-author span { font-size: 0.8em; white-space: normal; }
+  #messenger .paris8 img { width: 20px; float: left; border: 0; padding-right: 5px; }
+  #messenger .opinion { color: #0386c3!important; display: none; }
+  #messenger .gouvernement { color: #305a75!important; }
+  #messenger .message.paris8 { border: 1px solid #da002a; }
+  #messenger .message.paris8:not(.message-image) { margin-left: 10%; }
+  #messenger .message-author.paris8 { color: #da002a!important; }
+  #messenger .message-author.paris8 span { width: 16px; height: 16px; display: inline-block; background-image: url(https://static.mediapart.fr/files/2018/03/28/logo-paris-8.png); background-size: 16px 16px; margin-right: 5px; }
+  #messenger .universitaire { color: #65a38a!important; }
+  #messenger .droite { color: #2C59A8!important; }
+  #messenger .macron { color: #305a75!important; }
+  #messenger .observatoire { color: #FB6B02!important; }
+  #messenger .chroniqueur { color: #c51b8a!important; }
+  #messenger .rouge { color: #D40000!important; }
+  #messenger .message-text { word-wrap: break-word; color: #262626; position: relative; overflow: hidden; }
+  #messenger .message-text p { margin: 0!important; }
+  #messenger .message-text ul li:before { content: '■'; color: #d2d6db; font-weight: bold; position: absolute; left: -1.5em; top: 0; }
+  #messenger .message-text ul li { display: block; margin: 5px 0; position: relative; }
+  #messenger .message-text ul { margin-left: 1.5em; padding: 0; list-style-type: none; }
+  #messenger .message-text img:not(.emojione) { border-radius: 6px; width: 100%; margin-top: 10px; }
+  #messenger .message-system { text-align: center; margin: 30px 0 42px 0; }
+  #messenger .message-system-body { border-radius: 7.5px; color: #333; text-shadow: 0 1px 0 rgba(255, 255, 255, .4); background-color: rgba(225, 245, 254, .92); padding: 12px 24px; box-shadow: 0 1px .5px rgba(0, 0, 0, .13); width: 100%; display: block!important; }
+  #messenger .message-text a { border-bottom: 1px dotted #747b83; text-decoration: none; color: #da002a; }
+  #messenger .message-text a:hover { color: #129af0; }
+  #messenger .loading { width: 1.5em; }
+  #messenger .loading>div { font-size: 1.5em; color: #80B904; }
+  #messenger .loading>div:after { overflow: hidden; display: inline-block; vertical-align: bottom; -webkit-animation: ellipsis steps(4, end) 900ms infinite; animation: ellipsis steps(4, end) 900ms infinite; content: "…"; width: 0px; }
+  @keyframes ellipsis { to { width: 1.25em; } }
+  @-webkit-keyframes ellipsis { to { width: 1.25em; } }
+  .embed_paris8 .sources { padding-left: 10%; color: #b9c0c5; text-align: right; }
+  .embed_paris8 .sources a { color: #5d666d; }
+  #messenger .videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+  }
+#messenger .videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  }
