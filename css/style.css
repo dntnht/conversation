@@ -36,12 +36,10 @@ body {
   #messenger .message.paris8:not(.message-image) { margin-left: 10%; }
   #messenger .message-author.paris8 { color: #da002a!important; }
   #messenger .message-author.paris8 span { width: 16px; height: 16px; display: inline-block; background-image: url(https://static.mediapart.fr/files/2018/03/28/logo-paris-8.png); background-size: 16px 16px; margin-right: 5px; }
-  #messenger .universitaire { color: #65a38a!important; }
-  #messenger .droite { color: #2C59A8!important; }
-  #messenger .macron { color: #305a75!important; }
-  #messenger .observatoire { color: #FB6B02!important; }
-  #messenger .chroniqueur { color: #c51b8a!important; }
-  #messenger .rouge { color: #D40000!important; }
+  #messenger .universite { color: #8856a7!important; }
+  #messenger .etudiant { color: #c51b8a!important; }
+  #messenger .chercheur { color: #FB6B02!important; }
+  #messenger .media { color: #31a354!important; }
   #messenger .message-text { word-wrap: break-word; color: #262626; position: relative; overflow: hidden; }
   #messenger .message-text p { margin: 0!important; }
   #messenger .message-text ul li:before { content: '■'; color: #d2d6db; font-weight: bold; position: absolute; left: -1.5em; top: 0; }
